@@ -1,0 +1,24 @@
+commit:
+  message:
+    patterns:
+      - '#[0-9]+'
+approvals:
+  minimum: 2
+  ignore: none
+  pattern: "^(:\\+1:|👍)$"
+  veto:
+    pattern: "^(:\\-1:|👎)$"
+  groups:
+    qa:
+      minimum: 1
+      from:
+        users:
+          - MadhuraDani
+          - nam
+    dev:
+      minimum: 1
+      from:
+        users:
+          - kelvinator
+          - vivekleandata
+          - nathanschulz
