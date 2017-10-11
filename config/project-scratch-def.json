@@ -2,6 +2,6 @@
     "orgName": "Alex Example",
     "edition": "Developer",
     "orgPreferences" : {
-        "enabled": ["S1DesktopEnabled"]
+        "enabled": ["S1DesktopEnabled", "IsAccountTeamsEnabled"]
     }
 }
